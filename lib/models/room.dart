@@ -17,7 +17,7 @@ class Room {
     required this.servizi,
     required this.disponibile,
     required this.urlImmagine,
-  })
+  });
 
   factory Room.fromJson(Map<String, dynamic> json) {
     return Room(
